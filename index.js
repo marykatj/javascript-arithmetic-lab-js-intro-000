@@ -37,6 +37,10 @@ function makeInt(a) {
   return (parseInt(a, 10))
 }
 
+function preserveDecimal(a){
+  return (parseFloat(a))
+}
+
 describe('makeInt(n)', function() {
   it('parses n as an integer and returns the parsed integer', function() {
     expect(makeInt(a.toString())).toEqual(a)
