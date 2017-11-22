@@ -21,7 +21,7 @@ function divide(a, b) {
   return(a / b)
 }
 
-function increments(a) {
+function inc(a) {
   return (a+1)
 }
 it('inc(n) increments n and returns the result', function() {
